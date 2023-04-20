@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   content: ["index.html"],
   theme: {
     extend: {
-    //   fontFamily: {
-    //     dm: ['DM Sans', "sans-serif"]
-    //   }
-    // },
-  },
-  plugins: [],
+    },
+    plugins: [],
 }
 }
