@@ -11,22 +11,38 @@
     <div class="bg-neutral-400">
       <div class="container mx-auto px-4">
         <div class="flex h-screen flex-col">
-          <header class="flex items-center justify-between pt-3">
-            <div class="flex gap-20">
-              <a href="#" class="flex items-center gap-1">
-                <img src="/img/logo.png" alt="logo" />
-                <p class="text-xl font-bold text-white">Logo</p>
-              </a>
-              <nav class="flex items-center gap-[60px] max-lg:hidden">
-                <a href="" class="text-lg font-semibold text-white hover:text-neutral-100">Home</a>
-                <a href="" class="text-lg font-semibold text-white hover:text-neutral-100">Menu</a>
-                <a href="" class="text-lg font-semibold text-white hover:text-neutral-100">Services</a>
-                <a href="" class="text-lg font-semibold text-white hover:text-neutral-100">Promo</a>
-              </nav>
-            </div>
-            <div class="flex gap-5">
-              <button class="whitespace-nowrap rounded-lg border-2 border-white px-[24px] py-[18px] text-lg font-semibold text-white duration-150 ease-in-out hover:bg-white hover:text-neutral-400 max-sm:hidden">Log in</button>
-              <button class="whitespace-nowrap rounded-lg bg-neutral-500 px-[24px] py-[18px] text-lg font-semibold text-white">Create account</button>
+          <header class="pt-3">
+            <div class="navbar items-center justify-between rounded-lg bg-neutral-500">
+              <div class="flex gap-20">
+                <a href="#" class="flex items-center gap-1">
+                  <img src="/img/logo.png" alt="logo" />
+                  <p class="text-xl font-bold text-white">Logo</p>
+                </a>
+                <nav class="flex items-center gap-[60px] max-lg:hidden">
+                  <a href="" class="text-lg font-semibold text-white hover:text-neutral-100">Home</a>
+                  <a href="" class="text-lg font-semibold text-white hover:text-neutral-100">Menu</a>
+                  <a href="" class="text-lg font-semibold text-white hover:text-neutral-100">Services</a>
+                  <a href="" class="text-lg font-semibold text-white hover:text-neutral-100">Promo</a>
+                </nav>
+              </div>
+              <div class="flex gap-5">
+                <button class="whitespace-nowrap rounded-lg border-2 border-white px-[24px] py-[18px] text-lg font-semibold text-white duration-150 ease-in-out hover:bg-white hover:text-neutral-400 max-sm:hidden">Log in</button>
+                <button class="whitespace-nowrap rounded-lg bg-neutral-500 px-[24px] py-[18px] text-lg font-semibold text-white max-sm:hidden">Create account</button>
+                <div class="dropdown-end dropdown no-animation hidden max-sm:block">
+                  <label tabindex="0" class="btn-ghost btn m-1 flex flex-col gap-[4px]">
+                    <div class="h-[2px] w-[16px] rounded-full bg-white"></div>
+                    <div class="h-[2px] w-[16px] rounded-full bg-white"></div>
+                    <div class="h-[2px] w-[16px] rounded-full bg-white"></div>
+                  </label>
+                  <ul tabindex="0" class="dropdown-content menu mt-4 w-60 gap-[4px] rounded-lg bg-neutral-500 p-2">
+                    <li><a class="btn bg-neutral-400 text-white">Home</a></li>
+                    <li><a class="btn bg-neutral-400 text-white">Services</a></li>
+                    <li><a class="btn bg-neutral-400 text-white">Promo</a></li>
+                    <li><a class="btn bg-neutral-500 text-white">Log in</a></li>
+                    <li><a class="btn bg-neutral-500 text-white">Create account</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </header>
           <div class="mx-auto flex max-w-[650px] flex-1 flex-col items-center justify-center gap-6">
@@ -42,7 +58,7 @@
         </div>
       </div>
     </div>
-    <div class="py-[60px]">
+    <div class="bg-white py-[60px]">
       <div class="flex flex-col items-center justify-center gap-[60px] max-sm:px-0">
         <div class="mx-auto flex max-w-[600px] flex-col gap-6 px-4 text-center">
           <p class="text-5xl font-bold text-neutral-500">Available Games</p>
@@ -57,7 +73,7 @@
         </div>
       </div>
     </div>
-    <div class="py-[60px]">
+    <div class="bg-white py-[60px]">
       <div class="container mx-auto px-4">
         <div class="flex flex-col gap-12">
           <div class="flex items-center justify-between max-md:flex-col max-md:items-center max-md:gap-6 max-md:text-center">
@@ -87,7 +103,7 @@
         </div>
       </div>
     </div>
-    <div class="py-[60px]">
+    <div class="bg-white py-[60px]">
       <div class="container mx-auto px-4 max-sm:px-0">
         <div class="flex flex-col gap-12">
           <div class="flex max-sm:justify-center max-sm:text-center">
@@ -167,7 +183,7 @@
         </div>
       </div>
     </div>
-    <div class="py-[60px]">
+    <div class="bg-white py-[60px]">
       <div class="container mx-auto px-4">
         <div class="flex flex-col gap-[60px]">
           <div class="mx-auto flex max-w-[500px] flex-col items-center gap-4 text-center">
@@ -197,7 +213,7 @@
         </div>
       </div>
     </div>
-    <div class="py-[60px]">
+    <div class="bg-white py-[60px]">
       <div class="container mx-auto px-4">
         <div class="flex items-center justify-between max-sm:flex-col max-sm:gap-[60px]">
           <div class="flex max-w-[300px] flex-col gap-6">
@@ -218,7 +234,7 @@
         </div>
       </div>
     </div>
-    <div class="py-[60px]">
+    <div class="bg-white py-[60px]">
       <div class="container mx-auto px-4">
         <div class="flex w-full flex-col gap-[60px] bg-neutral-200 p-[60px] max-md:p-[30px]">
           <div class="flex justify-between max-md:flex-col-reverse max-md:gap-6">
@@ -235,7 +251,7 @@
         </div>
       </div>
     </div>
-    <div class="py-[60px]">
+    <div class="bg-white py-[60px]">
       <div class="container mx-auto px-4 max-sm:px-0">
         <div class="flex flex-col gap-[60px]">
           <p class="mx-auto max-w-[500px] px-4 text-center text-5xl font-bold text-neutral-400">What Our Lovely User Are Saying About Us</p>
@@ -270,7 +286,7 @@
         </div>
       </div>
     </div>
-    <div class="py-[60px]">
+    <div class="bg-white py-[60px]">
       <div class="container mx-auto px-4 max-sm:px-0">
         <div class="flex items-center justify-center gap-[180px] max-lg:flex-col max-sm:gap-[120px] max-sm:overflow-hidden">
           <div class="relative h-[550px] w-[550px] rounded-[30px] bg-neutral-300 max-sm:h-[300px] max-sm:w-[300px]">
@@ -294,7 +310,7 @@
         </div>
       </div>
     </div>
-    <div class="py-[120px]">
+    <div class="bg-white py-[120px]">
       <div class="container mx-auto px-4 max-sm:px-0">
         <div class="flex justify-center rounded-lg bg-neutral-500 px-4 max-sm:rounded-none">
           <div class="flex flex-col gap-[40px] rounded-lg py-[60px]">
@@ -303,14 +319,14 @@
               <p class="text-lg font-medium text-white">Receive news, stay updated and special offers</p>
             </div>
             <div class="flex flex-col items-center gap-[40px]">
-              <input type="email" id="email" placeholder="Type your email here" class="w-full rounded-lg border-2 py-[30px] text-center font-medium text-neutral-400 focus:border-2 focus:outline-0" />
+              <input type="email" id="email" placeholder="Type your email here" class="w-full rounded-lg border-2 bg-white py-[30px] text-center font-medium text-neutral-400 focus:border-2 focus:outline-0" />
               <button class="w-fit rounded bg-neutral-400 px-[50px] py-[18px] text-lg text-white">Subscribe</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="bg-neutral-950 py-[60px]">
+    <div class="bg-neutral-900 py-[60px]">
       <div class="container mx-auto px-4">
         <footer class="flex flex-col gap-[60px]">
           <div class="mx-auto flex w-fit flex-col items-center gap-6">
@@ -325,7 +341,7 @@
               <a href="" class="text-lg font-semibold text-white">Tournaments</a>
             </div>
           </div>
-          <div class="flex justify-between max-md:mx-auto max-md:w-fit max-md:flex-col max-md:flex-col-reverse max-md:gap-[60px]">
+          <div class="flex justify-between max-md:mx-auto max-md:w-fit max-md:flex-col-reverse max-md:gap-[60px]">
             <div class="flex flex-col gap-6">
               <p class="text-7xl font-bold text-white">
                 Step up <br />

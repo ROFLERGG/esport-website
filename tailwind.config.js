@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: ["index.html"],
   future: {
     hoverOnlyWhenSupported: true,
   },
-  content: ["index.html"],
   theme: {
     extend: {
     },
-    plugins: [require("daisyui")],
-}
+  },
+  plugins: [require("daisyui")]
 }
