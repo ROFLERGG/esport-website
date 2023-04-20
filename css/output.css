@@ -1088,6 +1088,10 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .hover\:flex-\[1\.5\]:hover {
     flex: 1.5;
@@ -1319,19 +1323,14 @@ video {
     padding-right: 1rem;
   }
 
-  .max-sm\:px-\[60px\] {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
-  .max-sm\:px-\[120px\] {
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-
   .max-sm\:px-\[160px\] {
     padding-left: 160px;
     padding-right: 160px;
+  }
+
+  .max-sm\:px-\[60px\] {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .max-sm\:text-center {
