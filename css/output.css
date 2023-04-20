@@ -1324,6 +1324,16 @@ video {
     padding-right: 60px;
   }
 
+  .max-sm\:px-\[120px\] {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .max-sm\:px-\[160px\] {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
   .max-sm\:text-center {
     text-align: center;
   }
